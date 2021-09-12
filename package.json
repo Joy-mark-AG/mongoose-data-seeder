@@ -1,6 +1,6 @@
 {
   "name": "mongoose-data-seeder",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "Seed your MongoDB database with a set of collections including referential relationship using mongoose",
   "main": "build/index.js",
   "repository": {
@@ -15,7 +15,7 @@
   "scripts": {
     "build": "tsc"
   },
-  "author": "Jian Wu <hellojianwu@gmail.com>",
+  "author": "qwz",
   "contributors": [
     {
       "name": "Sam Verschueren",
@@ -24,6 +24,10 @@
     {
       "name": "Jian WU",
       "email": "hellojianwu@gmail.com"
+    },
+    {
+      "name": "qwz",
+      "email": "jregvx@gmail.com"
     }
   ],
   "license": "MIT",
