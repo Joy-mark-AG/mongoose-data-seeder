@@ -1,8 +1,8 @@
 {
   "name": "mongoose-data-seeder",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Seed your MongoDB database with a set of collections including referential relationship using mongoose",
-  "main": "index.js",
+  "main": "build/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jianwu-github/mongoose-data-seeder.git"
@@ -12,6 +12,9 @@
     "Mongoose",
     "seed data"
   ],
+  "scripts": {
+    "build": "tsc"
+  },
   "author": "Jian Wu <hellojianwu@gmail.com>",
   "contributors": [
     {
@@ -25,14 +28,17 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "mongodb": "^3.1.9",
-    "mongoose": "^5.3.12"
+    "mongodb": "3.7.0",
+    "mongoose": "5.13.9"
   },
   "bugs": {
     "url": "https://github.com/jianwu-github/mongoose-data-seeder/issues"
   },
   "homepage": "https://github.com/jianwu-github/mongoose-data-seeder",
   "files": [
-    "index.js"
-  ]
+    "build/**/*"
+  ],
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  }
 }
